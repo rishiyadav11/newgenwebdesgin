@@ -9,7 +9,10 @@ loco();
 
 let mbscrn = document.querySelector("#mbscrn");
 let cross = document.querySelector("#cross");
+let mbscrnh1 = document.querySelector("#mbscrn h1");
+let mbscrnh2 = document.querySelector("#mbscrn h2");
 let main = document.querySelector("#main1");
+let rszevi = document.querySelector("#rszevi");
 
 
 
@@ -91,10 +94,15 @@ else{
   
   mbscrn.style.display = "flex";
   main.style.display = "none";
+  mbscrnh1.style.display = "block";
+  mbscrnh2.style.display = "block";
+  cross.style.display = "block";
+  rszevi.style.display = "block";
   
   cross.addEventListener("touchstart", function(){
     main.style.display = "block";
     mbscrn.style.display = "none";
+    
   })
 }
 

@@ -41,6 +41,12 @@ html, body{
   padding: 0.5vw;
   font-size: 7vw;
   border-radius: 50%;
+  display: none;
+}
+
+#mbscrn>h1{
+  font-size: 9vw;
+  display: none;
 }
 
 #mbscrn>h2{
@@ -49,12 +55,15 @@ html, body{
   height: 60vw;
   font-size: 8vw;
   text-align: center;
+  display: none;
 }
 
 #rszevi{
   height: 60vw;
   width: 60vw;
   border-radius: 10px;
+  object-fit: cover;
+  display: none;
 }
 
 
