@@ -363,3 +363,282 @@ nav>h2{
   font-size: 1.4vw;
   font-weight: 400;
 }
+
+
+@media screen and (max-width: 600px) {
+
+  nav{
+     height: 12vw;
+   }
+   
+   #nav-left{
+     gap: 6vw;
+   }
+   
+   #nav-left>a{
+     font-size: 3vw;
+   }
+
+   #nav-left>a:nth-child(2){
+    display: none;
+   }
+   
+   nav>h2{
+     font-size: 3vw;
+   }
+   #webminds{
+    color: rgb(155, 101, 30);
+   }
+   
+   .center{
+     margin-top: 15vw;
+     /* background: red; */
+     width: 100%;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+   }
+   
+   #center1{
+     padding: 1vw;
+     height: 80vw;
+     background-color: rgba(155, 175, 155, 0.318);
+     width: 35%;
+     margin-left: 5%;
+     margin-right: 10%;
+     display: flex;
+     flex-direction: column;
+     gap: 1vw;
+   }
+   
+   #center1>h2{
+    font-size: 5vw;
+   }
+
+   #center1>h4{
+     font-size: 3vw;
+     font-weight: 400;
+     opacity: 0.8;
+   
+   }
+   
+   #c1-img-div{
+     width: 95%;
+     height: 40vw;
+     /* background-color: red; */
+   }
+     
+   
+   #center2{
+     height: 80vw;
+     width: 45%;
+     position: relative;
+   }
+   
+   #c2-text{
+     position: absolute;
+     top: 0%;
+     left: 20%;
+   }
+   
+   #c2-text>h1{
+     font-size: 6vw;
+     font-weight: 500;
+     line-height: 5vw;
+   }
+   
+   #c2-img-div{
+     width: 100%;
+     height: 60%;
+     margin-bottom: 1vw;
+     z-index: 99;
+   }
+   
+   #c2-img-div>img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+   }
+
+   #c2-bottom-text{
+    background-color:papayawhip;
+   }
+   
+   #c2-bottom-text>h2{
+    font-size: 4.5vw;
+    padding: 1vw;
+   }
+   
+   #center3{
+     display: none;
+   }
+
+   #sec-2{
+     height: 25vh;
+     background-color: rgba(240, 255, 240, 0.571);
+     padding:0vw 8vw;
+   }
+   
+   #sec-2>h2{
+    margin-top: 2vw;
+    font-weight: 500;
+     font-size:3.5vw;
+     margin-bottom: 2vw;
+   }
+   
+   #sec-2>h3{
+     text-align:start;
+     font-size: 3.2vw;
+     line-height:4vw;
+     font-weight: 200;
+     width: 100%;
+   
+   }
+   
+   #sec-img1{
+     display: inline-block;
+     height: 6vw;
+     width: 12vw;
+     border-radius: 25px;
+     margin-bottom: 0px;
+     margin-bottom: -6px;
+   }
+   
+   
+   #sec-img2{
+     display: inline-block;
+     height: 6vw;
+     width: 12vw;
+     border-radius: 25px;
+     margin-bottom: -6px;
+
+   }
+   #sec-img3{
+     display: inline-block;
+     background-color: red;
+     height: 6vw;
+     width: 12vw;
+     border-radius: 25px;
+     margin-bottom: -6px;
+   
+   }
+   
+   #sec-3{
+     /* background-color: rgba(178, 34, 34, 0.244); */
+     height: 50vh;
+     width: 100vw;
+     gap:5vw;
+     padding: 2vw 8vw;
+   }
+   #sec-3-left{
+     height: 85%;
+     width: 50%;
+     /* background-color: honeydew; */
+     padding: 1vw;
+   }
+   #sec-3-left-img{
+     /* background-color: red; */
+     height: 80%;
+     width: 95%;
+     margin-bottom: 2vw;
+   }
+   #sec-3-left-img>img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+   }
+   #sec-3-left>h1{
+     font-size: 4vw;
+     font-weight: 600;
+     margin-bottom: 0.5vw;
+   }
+   #sec-3-left>h4{
+     font-size: 2.3vw;
+   }
+   
+   #sec-3-right{
+     padding: 1vw;
+     height: 100%;
+     width: 60%;
+   }
+   #sec-3-right-img{
+     height: 85%;
+     width: 95%;
+   }
+   
+   
+   #sec-3-right>h1{
+     font-size: 4vw;
+   }
+   #sec-3-right>h4{
+     font-size: 2.5vw;
+     font-weight: 400;
+   }
+   
+   
+   
+   #sec-4{
+     /* background-color: rgb(34, 178, 77); */
+     height: 110vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 1vw;
+     gap: 2vw;
+   }
+   
+   
+   #sec-4-img{
+     /* background-color: red; */
+     width: 95%;
+     height: 100%;
+   }
+   #sec-4-text{
+     width: 95%;
+     border-radius: 10px;
+     background-color: rgba(0, 139, 139, 0.756);
+   }
+   
+   
+   
+   
+   
+   
+   #sec-5{
+     margin-top: 3vw;
+     /* background-color: rgb(183, 225, 14); */
+     height: 80vh;
+     width: 100vw;
+     position: relative;
+   } 
+   
+   #sec-5-video{
+     opacity: 0;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     position: relative;
+   }
+   
+   #future{
+     padding: 3vw;
+   }
+   #future>h1{
+     font-size: 4vw;
+     font-weight: 500;
+     margin-bottom: 1.5vw;
+     text-align: center;
+   }
+   
+   #future>#join{
+     text-align: center;
+     padding: 2vw 3vw;
+     background-color:rgba(17, 15, 15, 0.182);
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 3vw;
+     font-weight: 400;
+   }
+   
+}

@@ -74,3 +74,23 @@ join.addEventListener("mouseleave", function(){
 })
 
 
+// Touchstart event listener
+join.addEventListener("touchstart", function() {
+  join.textContent = "Hold it!";
+  gsap.to("#sec-5 video", {
+    opacity: 1,
+    duration: 1,
+    ease: "power4"
+  });
+});
+
+// Touchend event listener
+join.addEventListener("touchend", function() {
+  join.textContent = "join the movement";
+  gsap.to("#sec-5 video", {
+    opacity: 0,
+    duration: 1,
+    ease: "power4"
+  });
+});
+
